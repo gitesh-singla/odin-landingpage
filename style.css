@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    font-size: 24px;
+    background-color: #1f2937;
+    padding: 16px 120px;
+    height: 20px;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header p {
+    margin-right: auto;
+    color: white;
+    font-weight: 900;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #e5e7eb;
+    font-weight: 400;
+}
+
+.intro {
+    background-color: #1f2937;
+    padding: 60px 120px;
+    height: 160px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 36px
+}
+
+.intro .heading {
+    font-weight: 900;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.intro .sub {
+    font-size: 14px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.intro img {
+    background-color: rgba(87, 65, 255, 0.318);
+    color: white;
+    height: 100%;
+    text-align: center;
+    line-height: 160px;
+    border: none;
+}
+
+.intro button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.info h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info .card-container {
+    padding: 0px 120px 60px;
+    font-size: 14px;
+    color: #787878;
+
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card-container .card {
+    flex-basis: 160px;
+    text-align: center;
+}
+
+.card img {
+    height: 160px;
+    border: solid blue 2px;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 8px;
+    line-height: 160px;
+}
+
+.quote-area {
+    background-color: #e5e7eb;
+    padding: 60px 240px;
+    text-align: end;
+    color: black;
+    font-weight: 900;
+}
+
+.quote-area .quote {
+    text-align: center;
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px;
+}
+
+.signup-container {
+    width: 100%;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-text {
+    font-size: small;
+    font-style: italic;
+}
+
+.signup-text .action {
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.signup-container button {
+    background-color: #3882f6;
+    font-size: 14px;
+    border: solid white 2px;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
+
